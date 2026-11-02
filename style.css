@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: aliceblue;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  min-height: 350px;
+  background-color: #434257;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px orange;
+  padding: 8px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h2 {
+  margin: 10px;
+  margin-top: 25px;
+  padding: 4px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.queOpt {
+  display: flex;
+  flex-direction: column;
+}
+
+.opt {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 5px 25px;
+}
+
+p {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px white;
+  
+}
+
+#option{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(226, 115, 115);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    gap: 8px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
